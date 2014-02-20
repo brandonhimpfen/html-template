@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE cross-domain-policy SYSTEM
+"http://www.adobe.com/xml/dtds/cross-domain-policy.dtd">
+<cross-domain-policy>
+
+ <!-- Typical policy
+ <site-control permitted-cross-domain-policies="master-only"/>
+ <allow-access-from domain="*.example.com"/>
+ <allow-access-from domain="www.example.com"/>
+ <allow-http-request-headers-from domain="*.adobe.com" headers="SOAPAction"/>
+ -->
+ 
+ <!-- Read more: http://www.adobe.com/devnet/articles/crossdomain_policy_file_spec.html -->
+
+</cross-domain-policy>

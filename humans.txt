@@ -1,0 +1,19 @@
+# humanstxt.org
+
+/* TEAM */
+	Name: First, Last Name
+	Contact: email [at] yourdomain.com
+	Twitter: @twitter_username
+	From: City, Province or State, Country
+
+/* THANKS */
+
+	HTML Template: Brandon Himpfen
+	Twitter: @brandonhimpfen
+	From: Toronto, Ontario, Canada
+
+/* SITE */
+	Last update: 2014/02/19
+	Language: English / French
+	Doctype: HTML5
+	IDE: Sublime Text, Notepad++, FileZilla, Photoshop
