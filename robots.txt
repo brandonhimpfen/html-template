@@ -1,2 +1,4 @@
+Sitemap: http://yourdomain.com/sitemap.xml
+
 User-agent: *
 
