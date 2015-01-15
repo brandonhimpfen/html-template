@@ -1,0 +1,17 @@
+// ==========================================================================
+// Main Sass file
+// ==========================================================================
+
+@charset "UTF-8";
+
+// Stuff to include in the creation of the CSS file
+// ==========================================================================
+
+// Config file containing the variables
+@import "variables";
+
+// Include base.css: a modern, HTML5 ready CSS base, foundation.
+@import "base";
+
+// Page specific CSS
+@import "page";
