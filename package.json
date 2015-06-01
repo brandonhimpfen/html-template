@@ -1,0 +1,18 @@
+{
+  "name": "HTML-Template",
+  "version": "1.2.1",
+  "homepage": "http://www.yourdomain.com/",
+  "author": "Brandon Himpfen",
+  "scss": "./sass/main.scss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BrandonHimpfen/HTML-Template.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-cssmin": "^0.12.2",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-sass": "^0.18.1",
+    "grunt-sitemap": "^1.2.1"
+  }
+}
