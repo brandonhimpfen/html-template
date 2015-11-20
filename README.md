@@ -14,7 +14,7 @@ License: MIT License
 
 | Name | Description | Link |
 | ------------- | ------------- | ------------- |
-| HTML Template Plain | Untouched version of HTML Template. | [html-template-plain](https://github.com/brandonhimpfen/html-template-plain) |
+| HTML Template (Plain) | Untouched version of HTML Template. | [html-template-plain](https://github.com/brandonhimpfen/html-template-plain) |
 | AMP HTML Template | AMP powered HTML Template. | [AMP-HTML-Template](https://github.com/brandonhimpfen/AMP-HTML-Template) |
 
 ##Flavours
