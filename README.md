@@ -26,3 +26,4 @@ License: MIT License
 | HTML Material Design Template | Material Design Lite powered HTML Template. | [html-material-design-template](https://github.com/brandonhimpfen/html-material-design-template) |
 | HTML Bedrock Template | Bedrock powered HTML Template. | [html-bedrock-template](https://github.com/brandonhimpfen/html-bedrock-template) |
 | HTML Bootstrap Template | Bootstrap powered HTML Template. | [html-bootstrap-template](https://github.com/brandonhimpfen/html-bootstrap-template) |
+| HTML Foundation Template | Zurb Foundation powered HTML Template. | [html-foundation-template](https://github.com/brandonhimpfen/html-foundation-template) |
