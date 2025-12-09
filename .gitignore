@@ -1,6 +1,0 @@
-# Windows image file caches
-Thumbs.db
-
-#Grunt
-node_modules/
-npm-debug.log
