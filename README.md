@@ -4,8 +4,6 @@ A modern, accessibility-focused HTML starter template designed to help you build
 
 This is a refreshed version of the original **HTML Template**: legacy tooling has been removed, the markup is cleaner, and the CSS is built on a small design system using CSS custom properties and modern layout primitives.
 
----
-
 ## Features
 
 - **Modern HTML5 structure** with semantic landmarks (`header`, `nav`, `main`, `footer`).
@@ -26,8 +24,6 @@ This is a refreshed version of the original **HTML Template**: legacy tooling ha
   - `humans.txt`
   - `browserconfig.xml`
   - `crossdomain.xml`
-
----
 
 ## Project structure
 
