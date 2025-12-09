@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Something went wrong · HTML Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="An unexpected error occurred.">
+    <meta name="theme-color" content="#0f172a">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="brand" href="index.html">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span class="brand__text">
+            <span class="brand__name">HTML Template</span>
+            <span class="brand__tagline">Fast · Accessible · Adaptable</span>
+          </span>
+        </a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="page-header">
+        <div class="container">
+          <h1 class="page-header__title">Something went wrong</h1>
+          <p class="page-header__lead">
+            An unexpected error occurred. Please try again in a moment.
+          </p>
+        </div>
+      </section>
+
+      <section class="page-content">
+        <div class="container">
+          <p>
+            If this keeps happening, you can contact the site owner or try again later.
+          </p>
+          <p>
+            <a class="button" href="index.html">Return to homepage</a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <p>© <span id="year"></span> HTML Template. MIT licensed.</p>
+      </div>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+    <script>
+      const yearEl = document.getElementById("year");
+      if (yearEl) {
+        yearEl.textContent = new Date().getFullYear();
+      }
+    </script>
+  </body>
+</html>

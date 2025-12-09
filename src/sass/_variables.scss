@@ -1,0 +1,66 @@
+// Design tokens
+
+:root {
+  /* Colors */
+  --color-bg: #ffffff;
+  --color-bg-soft: #f3f4f6;
+  --color-surface: #ffffff;
+  --color-border-subtle: #e5e7eb;
+  --color-text: #0f172a;
+  --color-text-soft: #4b5563;
+  --color-accent: #2563eb;
+  --color-accent-soft: #dbeafe;
+  --color-accent-strong: #1d4ed8;
+  --color-danger: #b91c1c;
+
+  /* Typography */
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+
+  /* Spacing scale */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+
+  /* Radius */
+  --radius-xs: 0.125rem;
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.08);
+  --shadow-md: 0 10px 30px rgba(15, 23, 42, 0.12);
+
+  /* Layout */
+  --container-max: 72rem;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #020617;
+    --color-bg-soft: #020617;
+    --color-surface: #0b1220;
+    --color-border-subtle: #1f2937;
+    --color-text: #e5e7eb;
+    --color-text-soft: #9ca3af;
+    --color-accent: #60a5fa;
+    --color-accent-soft: #1d4ed8;
+    --color-accent-strong: #93c5fd;
+    --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.6);
+    --shadow-md: 0 18px 45px rgba(15, 23, 42, 0.85);
+  }
+}

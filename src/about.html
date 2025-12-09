@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>About · HTML Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Learn how to use and customize the HTML Template starter.">
+    <meta name="theme-color" content="#0f172a">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="brand" href="index.html">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span class="brand__text">
+            <span class="brand__name">HTML Template</span>
+            <span class="brand__tagline">Fast · Accessible · Adaptable</span>
+          </span>
+        </a>
+
+        <button class="site-header__toggle" type="button" aria-expanded="false" aria-controls="primary-nav" data-nav-toggle>
+          <span class="site-header__toggle-icon" aria-hidden="true">☰</span>
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+
+        <nav class="site-nav" aria-label="Main navigation" id="primary-nav" data-site-nav>
+          <ul class="site-nav__list">
+            <li><a class="site-nav__link" href="index.html#features">Features</a></li>
+            <li><a class="site-nav__link" href="index.html#layout">Layout</a></li>
+            <li><a class="site-nav__link" aria-current="page" href="about.html">About</a></li>
+            <li><a class="site-nav__link site-nav__link--primary" href="index.html#start">Get started</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <header class="page-header">
+        <div class="container">
+          <h1 class="page-header__title">About this template</h1>
+          <p class="page-header__lead">
+            HTML Template is a minimal starter for projects that value accessibility, performance, and maintainability over heavy tooling and visual gimmicks.
+          </p>
+        </div>
+      </header>
+
+      <section class="page-content">
+        <div class="container">
+          <p>
+            The goal of this starter is to provide a reference implementation of modern HTML and CSS patterns that you can either use directly or adapt into your own design system.
+          </p>
+
+          <h2>What makes it different?</h2>
+          <p>
+            Instead of shipping a full component library or a complex build step, this template focuses on:
+          </p>
+          <ul>
+            <li>Semantic HTML5 structure and accessible defaults.</li>
+            <li>A small set of layout and utility styles built with CSS custom properties.</li>
+            <li>Optional Sass support if you prefer to structure your styles as partials.</li>
+          </ul>
+
+          <h2>How to extend it</h2>
+          <p>
+            You can extend the template by adding new sections, components, or pages. The base styles are intentionally neutral, so they should work with a wide range of brands and color palettes.
+          </p>
+          <p>
+            For larger projects, consider integrating this starter with a build system like Vite, Next.js, or your preferred framework while preserving the accessibility and layout foundations.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <p>© <span id="year"></span> HTML Template. MIT licensed.</p>
+        <div class="site-footer__links">
+          <a href="about.html" aria-current="page">About this template</a>
+          <a href="#top">Back to top</a>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+    <script>
+      const yearEl = document.getElementById("year");
+      if (yearEl) {
+        yearEl.textContent = new Date().getFullYear();
+      }
+    </script>
+  </body>
+</html>

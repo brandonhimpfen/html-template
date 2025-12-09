@@ -1,0 +1,18 @@
+{
+  "name": "html-template",
+  "version": "2.0.0",
+  "description": "A modern, accessible HTML starter template for fast, robust, and adaptable websites.",
+  "scripts": {
+    "css:build": "sass src/sass/main.scss src/css/main.css --style=expanded",
+    "css:min": "sass src/sass/main.scss src/css/main.min.css --style=compressed",
+    "css": "npm run css:build && npm run css:min",
+    "watch": "sass --watch src/sass/main.scss src/css/main.css",
+    "serve": "npx live-server src",
+    "build": "npm run css"
+  },
+  "devDependencies": {
+    "sass": "^1.80.0",
+    "postcss": "^8.0.0",
+    "autoprefixer": "^10.0.0"
+  }
+}

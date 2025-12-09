@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Page not found · HTML Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The page you requested could not be found.">
+    <meta name="theme-color" content="#0f172a">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="brand" href="index.html">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span class="brand__text">
+            <span class="brand__name">HTML Template</span>
+            <span class="brand__tagline">Fast · Accessible · Adaptable</span>
+          </span>
+        </a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="page-header">
+        <div class="container">
+          <h1 class="page-header__title">Page not found</h1>
+          <p class="page-header__lead">
+            The page you were looking for doesn’t exist or may have been moved.
+          </p>
+        </div>
+      </section>
+
+      <section class="page-content">
+        <div class="container">
+          <p>
+            If you typed the address, double-check the URL for typos. You can also go back to the homepage to find what you need.
+          </p>
+          <p>
+            <a class="button" href="index.html">Return to homepage</a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <p>© <span id="year"></span> HTML Template. MIT licensed.</p>
+      </div>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+    <script>
+      const yearEl = document.getElementById("year");
+      if (yearEl) {
+        yearEl.textContent = new Date().getFullYear();
+      }
+    </script>
+  </body>
+</html>

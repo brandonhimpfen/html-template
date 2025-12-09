@@ -1,0 +1,28 @@
+# Example .htaccess for Apache-based hosting
+# Adjust or remove directives depending on your environment.
+
+# Enable gzip compression (if not already configured on the server)
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
+</IfModule>
+
+# Basic cache headers for static assets
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+</IfModule>
+
+# Canonical redirect (optional)
+# Replace example.com with your domain if you want to force HTTPS + www
+# RewriteEngine On
+# RewriteCond %{HTTPS} off [OR]
+# RewriteCond %{HTTP_HOST} !^www\.example\.com$ [NC]
+# RewriteRule ^(.*)$ https://www.example.com/$1 [L,R=301]
+
+# Custom error documents (ensure these files exist in the same directory)
+ErrorDocument 404 /404.html
+ErrorDocument 500 /500.html
